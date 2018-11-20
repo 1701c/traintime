@@ -1,0 +1,36 @@
+input {
+  width: 100%;
+  margin: 5px 0px 10px;
+  border-radius: 5px;
+  border-width: 1px;
+}
+
+#trainsTitle {
+  width: 100%;
+}
+
+.container {
+  margin-top: 10px;
+}
+
+.card {
+  margin-bottom: 20px;
+  border-color: #337DF6;
+}
+
+#updateTime {
+  font-size: 10pt;
+  color: rgb(201, 201, 201);
+}
+
+.blinking{
+	animation:blinkingText 1s infinite;
+}
+
+@keyframes blinkingText{
+  0%{		opacity: 1;	}
+  30%{	opacity: 1;	}
+  50%{	opacity: 0;	}
+  70%{	opacity: 1;	}
+	100%{	opacity: 1;	}
+}
